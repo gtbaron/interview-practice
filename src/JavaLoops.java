@@ -15,10 +15,10 @@ public class JavaLoops {
     public void execute() {
 
         System.out.println("Basic for loop:");
-        // write a basic for loop that iterates over the intArray and sums the values
+        // write a basic for loop that iterates over the intArray and sums the values and prints the total
 
         System.out.println("For/Each loop:");
-        // write a for each loop that multiplies each element of the doubleList by 2
+        // write a for each loop that multiplies each element of the doubleList by 2 and prints each result
 
         System.out.println("Iterator while loop:");
         // write a while loop that uses an iterator and prints out each name in the nameList

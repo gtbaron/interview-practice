@@ -20,6 +20,8 @@ public class JavaLoops {
 
         // write a while loop that uses an iterator and prints out each name in the nameSet
 
+        // write a do/while loop that uses an index to iterate over the nameSet and prints out each name
+
     }
 
     public static void main(String[] args) {

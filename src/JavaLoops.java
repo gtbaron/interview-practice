@@ -14,17 +14,17 @@ public class JavaLoops {
 
     public void execute() {
 
-        // write a basic for loop that iterates over the intArray and sums the values
         System.out.println("Basic for loop:");
+        // write a basic for loop that iterates over the intArray and sums the values
 
-        // write a for each loop that multiplies each element of the doubleList by 2
         System.out.println("For/Each loop:");
+        // write a for each loop that multiplies each element of the doubleList by 2
 
-        // write a while loop that uses an iterator and prints out each name in the nameList
         System.out.println("Iterator while loop:");
+        // write a while loop that uses an iterator and prints out each name in the nameList
 
-        // write a do/while loop that uses an index to iterate over the nameList and prints out each name
         System.out.println("Indexed do/while loop:");
+        // write a do/while loop that uses an index to iterate over the nameList and prints out each name
 
     }
 

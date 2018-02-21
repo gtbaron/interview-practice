@@ -1,4 +1,4 @@
-# loops.JavaLoops
+# Interview Practice
 
 ## Description:
-A simple Java program to practice implementing basic loops over lists and arrays.
+A set of practice problems in Java to prepare for entry level developer interviews.

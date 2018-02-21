@@ -26,6 +26,9 @@ public class JavaLoops {
         System.out.println("Indexed do/while loop:");
         // write a do/while loop that uses an index to iterate over the nameList and prints out each name
 
+        System.out.println("BONUS: printing with streams:");
+        // use a stream to print only the names in nameList that start with "m"
+
     }
 
     public static void main(String[] args) {

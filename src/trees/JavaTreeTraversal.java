@@ -27,7 +27,9 @@ public class JavaTreeTraversal {
         }
         StringBuilder result = new StringBuilder();
         result.append(root.getData() + " ");
-        return "not implemented";
+        result.append(recursiveDepthFirstTraversal(root.getLeft()));
+        result.append(recursiveDepthFirstTraversal(root.getRight()));
+        return result.toString();
     }
 
     private String iterativeDepthFirstTraversal(Node tree) {

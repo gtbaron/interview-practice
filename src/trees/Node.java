@@ -13,8 +13,16 @@ public class Node {
         this.left = left;
     }
 
+    public Node getLeft() {
+        return this.left;
+    }
+
     public void setRight(Node right) {
         this.right = right;
+    }
+
+    public Node getRight() {
+        return this.right;
     }
 
     public int getData() {

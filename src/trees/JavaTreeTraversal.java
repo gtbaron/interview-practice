@@ -11,10 +11,13 @@ public class JavaTreeTraversal {
     public void execute() {
         // should print: 1 2 4 8 5 9 10 3 6 7
         System.out.println("recursiveDepthFirstTraversal(): " + this.recursiveDepthFirstTraversal());
+        System.out.println("Expected output:\t\t\t\t1 2 4 8 5 9 10 3 6 7\n");
         System.out.println("iterativeDepthFirstTraversal(): " + this.iterativeDepthFirstTraversal());
+        System.out.println("Expected output:\t\t\t\t1 2 4 8 5 9 10 3 6 7\n");
 
         // should print: 1 2 3 4 5 6 7 8 9 10
         System.out.println("breadthFirstTraversal(): " + this.breadthFirstTraversal());
+        System.out.println("Expected output:\t\t 1 2 3 4 5 6 7 8 9 10\n");
     }
 
     private String recursiveDepthFirstTraversal() {

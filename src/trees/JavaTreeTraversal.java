@@ -11,35 +11,28 @@ public class JavaTreeTraversal {
     public void execute() {
         // should print: 1 2 4 8 5 9 10 3 6 7
         System.out.println("recursiveDepthFirstTraversal(): " + this.recursiveDepthFirstTraversal(tree));
-        System.out.println("Expected output:\t\t\t\t1 2 4 8 5 9 10 3 6 7\n");
+        System.out.println("\t\t\t   Expected output: 1 2 4 8 5 9 10 3 6 7\n");
         System.out.println("iterativeDepthFirstTraversal(): " + this.iterativeDepthFirstTraversal(tree));
-        System.out.println("Expected output:\t\t\t\t1 2 4 8 5 9 10 3 6 7\n");
+        System.out.println("\t\t\t   Expected output: 1 2 4 8 5 9 10 3 6 7\n");
 
         // should print: 1 2 3 4 5 6 7 8 9 10
         System.out.println("breadthFirstTraversal(): " + this.breadthFirstTraversal(tree));
-        System.out.println("Expected output:\t\t 1 2 3 4 5 6 7 8 9 10\n");
+        System.out.println("\t\tExpected output: 1 2 3 4 5 6 7 8 9 10\n");
     }
 
     private String recursiveDepthFirstTraversal(Node root) {
         // evaluation order: data, left, right
-        if (root == null) {
-            return "";
-        }
-        StringBuilder result = new StringBuilder();
-        result.append(root.getData() + " ");
-        result.append(recursiveDepthFirstTraversal(root.getLeft()));
-        result.append(recursiveDepthFirstTraversal(root.getRight()));
-        return result.toString();
+        return "not implemented";
     }
 
-    private String iterativeDepthFirstTraversal(Node tree) {
+    private String iterativeDepthFirstTraversal(Node root) {
         // evaluation order: data, left right
         return "not implemented";
     }
 
-    private String breadthFirstTraversal(Node tree) {
-        // implement a breadth first traversal, using either recursion or iteration,
-        // that returns the node data in ascending order
+    private String breadthFirstTraversal(Node root) {
+        // implement a breadth first traversal that
+        // returns the node data in ascending order
         return "not implemented";
     }
 

@@ -22,6 +22,11 @@ public class JavaTreeTraversal {
 
     private String recursiveDepthFirstTraversal(Node root) {
         // evaluation order: data, left, right
+        if (root == null) {
+            return "";
+        }
+        StringBuilder result = new StringBuilder();
+        result.append(root.getData() + " ");
         return "not implemented";
     }
 
